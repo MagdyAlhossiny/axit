@@ -1,0 +1,732 @@
+/*Start Main rulez*/
+body {
+    background: #000;
+    font-family: 'Source Sans Pro';
+    color: #fff
+}
+
+.container {width: 1170px;margin: auto}
+
+/*End Main rulez*/
+/* Start Header */
+
+.header .nav {
+    background-color: #000;
+    overflow: hidden;
+    color: #fff
+}
+
+.header .logo p {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ee8337;
+}
+
+.header .logo p strong {color: #fff}
+
+.header .links {float: right;}
+
+.header .links ul {
+    list-style: none;
+}
+
+.header .links ul li {display: inline-block;padding: 20px;}
+
+.header .links ul li:hover {color: #ee8337;cursor: pointer;}
+
+.header .slider {
+    background-image: url("../images/slider.png");
+    height: 924px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.header .slider .text {
+    width: 60%;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.header .slider .text h1 {text-transform: uppercase;font-size: 80px}
+
+.header .slider .text h1 span {color: #ee8337;font-weight: lighter}
+
+.header .slider .text p:first-of-type {
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 90%
+}
+
+.header .slider .text hr {
+    height: 5px;
+    border: 0;
+    width: 15%;
+    background-color: #fff;
+    float: left;
+}
+
+.header .slider .text p:last-of-type {
+    color: #86878b;
+    line-height: 1.7;
+    padding-top: 50px;
+    width: 75%
+}
+
+.header .slider .text button {
+    background: none;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30px
+}
+
+.header .slider .text button:hover {
+    background-color: #fff;
+    color: #ee8337
+}
+
+.header .slider .form {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 180px
+}
+
+.header .slider .form h2 {
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #333333
+}
+
+.header .slider .form h2 span {
+    color: #ee8337;
+}
+
+.header .slider .form input {
+    display: block;
+    border-width: 0;
+    border-bottom: 3px solid #f5f5f5;
+    padding: 10px;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.header .slider .form input[type="submit"] {
+    width: 100%;
+    background: #ee8337;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+    border: 0
+}
+
+/* End Header */
+
+/* Start Social Media*/
+.social {
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ccc;
+    /* Edit */
+}
+
+.social .text {
+    float: left;
+    width: 33%
+}
+
+.social .text h3 {
+    margin: 0;
+    color: #333;
+}
+
+.social .text p {
+    color: #86878b
+}
+
+.social .apps {
+    width: 67%;
+    float: right;
+}
+
+.social .apps ul {
+    list-style: none;
+}
+
+.social .apps ul li a {
+    color: #ccc
+}
+
+.social .apps ul li {
+    font-size: 50px;
+    padding-left: 7%;
+    display: inline;
+}
+
+/* End Social Media*/
+
+/* Start Tabs*/
+
+.tabs {
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.tabs .left-boxs {
+    float: left;
+    margin-top: 150px;
+}
+
+.tabs .left-boxs .box {
+    background-color: #333;
+    padding: 55px 40px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.tabs .left-boxs .active {
+    background-color: #ee8337;
+}
+
+.tabs .text {
+    width: 38%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.tabs .text h1 {
+    color: #333;
+    margin: 0;
+    font-size: 25px;
+}
+
+.tabs .text p {
+    color: #86878b;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-top: 50px
+}
+
+.tabs .text button {
+    background: #ee8337;
+    padding: 10px 30px;
+    border: 0;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabs .text button:hover {
+    background-color: #f5f5f5;
+    border: 1px solid #ee8337;
+    color: #ee8337
+}
+
+.tabs .image {
+    float: right;
+    margin-top: 200px;
+    width: 42%
+}
+
+/* End Tabs*/
+
+/* Start Left Image*/
+.lt-img {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.lt-img .img {
+    float: left;
+    margin-top: 180px;
+    box-shadow: 5px 10px 20px#86878b;
+}
+
+.lt-img .text {
+    float: right;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.lt-img .text h3 {
+    color: #333;
+    border-bottom: 3px solid #ee8337;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.lt-img .text>p {
+    margin-bottom: 50px;
+}
+
+.lt-img .text p {
+    color: #86878b;
+    width: 80%;
+    line-height: 1.7;
+}
+
+.lt-img .text .icon {
+    overflow: hidden;
+}
+
+.lt-img .text .icon .upload {
+    float: left;
+    margin-top: 15px
+}
+
+.lt-img .text .icon .description {
+    margin-left: 90px;
+}
+
+.lt-img .text .icon h4 {
+    color: #666
+}
+
+.lt-img .text .icon i {
+    color: #ee8337;
+    font-size: 15px;
+    border: 3px solid #ee8337;
+    border-radius: 100%;
+    padding: 15px
+}
+
+.lt-img .text .icon i:hover {
+    background-color: #ee8337;
+    color: #fff
+}
+
+/* End Left Image*/
+
+/* Start Right Image*/
+.rt-img {
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.rt-img .text {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.rt-img .img {
+    float: right;
+    margin-top: 150px;
+    box-shadow: 5px 10px 20px#86878b;
+    margin-bottom: 50px;
+}
+
+.rt-img .text h3 {
+    color: #333;
+    border-bottom: 3px solid #ee8337;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.rt-img .text p {
+    color: #86878b;
+    width: 75%;
+    line-height: 1.7;
+    font-size: 16px
+}
+
+.rt-img .text p:last-of-type {
+    margin-top: 30px
+}
+
+/* End Right Image*/
+
+/* Start Awesome section*/
+
+.awesome {
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.awesome .text hr {
+    height: 3px;
+    border: 0;
+    width: 6%;
+    background-color: #ee8337;
+}
+
+.awesome .text p:first-of-type {
+    color: #333;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.awesome .text p:last-of-type {
+    color: #86878b;
+    padding-top: 20px
+}
+
+.awesome .icon {
+    width: 33.3333%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.awesome .icon i {
+    color: #ee8337;
+    font-size: 40px;
+    border: 2px solid #ee8337;
+    border-radius: 100%;
+    padding: 20px 25px;
+    font-weight: lighter;
+}
+
+.awesome .icon i:hover {
+    background-color: #ee8337;
+    color: #fff
+}
+
+.awesome .icon h2 {
+    color: #333;
+    padding-top: 10px
+}
+
+.awesome .icon p {
+    color: #86878b;
+    line-height: 1.5;
+    width: 90%;
+    font-weight: lighter;
+    padding-top: 10px
+}
+
+/* End Awesome section*/
+
+/* Start Pricing plans*/
+
+.price-plans {
+    background-color: #f5f5f5;
+    text-align: center;
+    overflow: hidden;
+}
+
+.price-plans .text hr {
+    height: 3px;
+    border: 0;
+    width: 6%;
+    background-color: #ee8337;
+}
+
+.price-plans .text p:first-of-type {
+    color: #333;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.price-plans .text p:last-of-type {
+    color: #86878b;
+    padding-top: 20px
+}
+
+.price-plans .plan.center {
+    margin-top: 50px
+}
+
+.price-plans .plan {
+    width: 31%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: left;
+    margin-left: 2%;
+    box-shadow: 5px 10px 20px#86878b;
+}
+
+.price-plans .plan .head {
+    background-color: #333;
+    padding: 8px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.price-plans .plan .body {
+    background-color: #333;
+    margin: 0;
+    border-bottom: 5px solid #ee8337;
+    padding-top: 15px
+}
+
+.price-plans .plan .body h1 {
+    font-size: 70px;
+    margin: 0
+}
+
+.price-plans .plan .body h1 span {
+    font-size: 40px;
+}
+
+.price-plans .plan .body p {
+    color: #86878b;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.price-plans .plan .primere {
+    text-transform: uppercase;
+    background: #ee8337;
+    margin: 0;
+    padding: 15px
+}
+
+.price-plans .plan .footer {
+    background-color: #fff;
+    color: #86878b;
+}
+
+.price-plans .plan .footer p {
+    margin: 0;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+/* End Pricing plans*/
+/* Start Awesome section*/
+
+.customers {
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.customers .text hr {
+    height: 3px;
+    border: 0;
+    width: 6%;
+    background-color: #ee8337;
+}
+
+.customers .text p:first-of-type {
+    color: #333;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.customers .text p:last-of-type {
+    color: #86878b;
+    padding-top: 20px
+}
+
+.customers .clint {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    padding-top: 50px;
+    padding-bottom: 40px
+}
+
+.customers .clint .opinion {
+    background-color: #f5f5f5;
+    color: #86878b;
+    padding: 18px;
+    text-align: left;
+}
+
+.customers .clint i {
+    color: #f5f5f5;
+    font-size: 35px;
+    position: relative;
+    right: 140px;
+    bottom: 14px;
+}
+
+.customers .info {
+    overflow: hidden;
+}
+
+.customers .info img {
+    float: left;
+}
+
+.customers .info .text {
+    float: left;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.customers .info h2 {
+    color: #333;
+    margin: 0
+}
+
+.customers .info span {
+    color: #86878b;
+}
+
+/* End Awesome section*/
+
+/* Start Stylish Section*/
+
+.stylish {
+    background-image: url('../images/stylish.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.stylish .text hr {
+    height: 3px;
+    border: 0;
+    width: 6%;
+    background-color: #fff;
+}
+
+.stylish .text p:first-of-type {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.stylish .text p:last-of-type {
+    color: #86878b;
+    padding-top: 20px
+}
+
+.stylish button {
+    background: none;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.stylish button:hover {
+    background-color: #ee8337;
+}
+
+/* End Stylish Section*/
+
+/* Start Contact*/
+.contact {
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact .text {
+    padding-top: 30px
+}
+
+.contact .text hr {
+    height: 3px;
+    border: 0;
+    width: 6%;
+    background-color: #ee8337;
+}
+
+.contact .text p:first-of-type {
+    color: #333;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contact .text p:last-of-type {
+    color: #86878b;
+    padding-top: 20px
+}
+
+.contact .form {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.contact .form input {
+    display: block;
+    border-width: 0;
+    border-bottom: 3px solid #f5f5f5;
+    padding: 10px;
+    margin: 15px auto;
+    width: 50%;
+    float: left;
+}
+
+.contact .form textarea {
+    float: right;
+    width: 45%;
+    border-width: 0;
+    border-bottom: 3px solid #f5f5f5;
+    margin-top: -140px;
+    padding: 10px;
+    height: 172px
+}
+
+.contact .form button {
+    background: #ee8337;
+    padding: 20px 35px;
+    border: 0;
+    color: #fff;
+    margin-top: 50px;
+    float: left;
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+
+.contact .form button:hover {
+    background-color: #fff;
+    border: 1px solid #ee8337;
+    color: #ee8337
+}
+
+/* End Contact*/
+
+/* Start footer */
+.footer .apps {
+    text-align: center;
+}
+
+.footer .apps ul {
+    list-style: none;
+}
+
+.footer .apps ul li {
+    color: #ccc;
+    font-size: 30px;
+    padding-left: 7%;
+    display: inline;
+}
+
+.footer p {
+    text-align: center;
+    color: #86878b;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/* End footer*/
+
+/* Start My framework */
+.left {
+    float: left
+}
